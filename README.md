@@ -27,9 +27,9 @@ docker-compose up --build
 
 ## Access services in your browser:
 
-Service 1 (Go): http://localhost:8081/service1/ping
+Service 1 (Go): http://localhost:8081/service1/ping || http://localhost:8081/service1/hello
 
-Service 2 (Python): http://localhost:8081/service2/ping
+Service 2 (Python): http://localhost:8081/service2/ping || http://localhost:8081/service2/hello
 
 ## Routing Logic
 Nginx listens on port 8081
